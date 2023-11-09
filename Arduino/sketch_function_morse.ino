@@ -1,5 +1,6 @@
 // Define the LED pin
 int ledPin = 13;
+int dotDuration = 500;
 
 void setup() {
   // Initialize the LED pin as an output
@@ -8,16 +9,16 @@ void setup() {
 
 void dot() {
   digitalWrite(ledPin, HIGH); // Turn on the LED
-  delay(500); // Dot duration
+  delay(dotDuration); // Dot duration
   digitalWrite(ledPin, LOW); // Turn off the LED
-  delay(500); // Pause between dots and dashes
+  delay(dotDuration); // Pause between dots and dashes
 }
 
 void dash() {
   digitalWrite(ledPin, HIGH); // Turn on the LED
-  delay(1500); // Dash duration
+  delay(dotDuration*3); // Dash duration
   digitalWrite(ledPin, LOW); // Turn off the LED
-  delay(500); // Pause between dots and dashes
+  delay(dotDuration); // Pause between dots and dashes
 }
 
 void loop() {
@@ -43,4 +44,3 @@ void morseLuyi() {
   dot(); dot();
   delay(1500); // Pause between letters
 }
-
