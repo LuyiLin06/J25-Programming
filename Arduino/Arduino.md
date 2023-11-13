@@ -14,4 +14,6 @@ the setup function, and then proceeds to turn the LED on and off in fixed interv
 
 Then, there's *sketch_morse_code.ino* (https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/sketch_morse_code.ino),
 which uses the same "digitalWrite" function as the previous code. But this time to spell a certain word in morse code (for clarity, 3 seconds on = dash, and only 1 second = dot). We also have *sketch_morseBlink* (https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/sketch_morseBlink.ino)
-, which is much simpler thanks to the use of the "blink" function 
+, which is much simpler thanks to the use of the "blink" function, where the Arduino board will automatically turn the LED on and off, without need of "digitalWrite" in every single line of the code. In this one, we instead define the letters in functions (the *void*s present in the code each represent a function). 
+
+You may also see the *sketch_function_morse.ino* file, which simply combines all the previous tasks
