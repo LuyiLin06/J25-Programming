@@ -1,6 +1,4 @@
-# Arduino Loops Notebook
-
-## Introduction
+# Introduction
 
 Loops are fundamental constructs in programming that allow you to repeat a set of instructions multiple times. In Arduino coding, loops are commonly used to perform tasks iteratively. There are two main types of loops: `for` loops and `while` loops.
 
