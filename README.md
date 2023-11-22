@@ -209,12 +209,12 @@ default:
 
 **Comparators**
 
-1. == Same value
-2. ¡= Different value
-3. < Lesser than
-4. <= Lesser or equal than
-5. > Greater than
-6. >= Greater or equal than
+1. "==" Same value
+2. "¡=" Different value
+3. "<" Lesser than
+4. "<=" Lesser or equal than
+5. ">" Greater than
+6. ">=" Greater or equal than
 --- 
 **COMBO BURGER (boolean operators)**
 
