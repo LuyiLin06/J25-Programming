@@ -411,3 +411,105 @@ cook();
 if(input=="potato"){potato++;}}
 }
 ```
+## Methods for Strings in C++ (Arduino):
+
+#### 1. **`length()` Method:**
+
+   - Returns the length of the string.
+
+   - Example:
+
+```c++
+     String myString = "Hello, Arduino!";
+     int len = myString.length(); // len is 1
+```
+
+#### 2. **`charAt(index)` Method:**
+
+   - Returns the character at the specified index.
+
+   - Example:
+
+```c++  
+     char charAtIndex = myString.charAt(7); // charAtIndex is 'A'
+```
+
+#### 3. **`concat(str)` Method:**
+
+   - Concatenates (appends) another string to the end of the current string.
+
+   - Example:
+
+```c++
+     myString.concat(" How are you?");
+
+```
+
+#### 4. **`substring(start, length)` Method:**
+
+   - Returns a substring starting from the specified index with the specified length.
+
+   - Example:
+
+```c++
+     String subStr = myString.substring(7, 3); // subStr is "Ard"
+
+```
+
+#### 5. **`indexOf(str)` Method:**
+
+   - Returns the index of the first occurrence of the specified substring.
+
+   - Example:
+
+```cpp
+
+     int index = myString.indexOf("Arduino"); // index is 7
+
+```
+
+#### 6. **`startsWith(prefix)` and `endsWith(suffix)` Methods:**
+
+   - Checks if the string starts or ends with the specified substring.
+
+   - Examples:
+
+```cpp
+
+     bool startsWith = myString.startsWith("Hello"); // true
+
+     bool endsWith = myString.endsWith("!"); // true
+
+```
+
+#### 7. **`toInt()` Method:**
+
+   - Converts the string to an integer.
+
+   - Example:
+
+```cpp
+
+     String numStr = "123";
+
+     int num = numStr.toInt(); // num is 123
+
+```
+
+#### 8. **`c_str()` Method:**
+
+   - Returns a pointer to the underlying array of characters (C-style string).
+
+   - Example:
+
+```cpp
+
+     const char* cString = myString.c_str();
+
+```
+
+### Useful Resources:
+
+1\. [Arduino String Reference](https://www.arduino.cc/reference/en/language/variables/data-types/stringobject/)
+
+2\. [C++ String Reference (w3schools)](https://www.w3schools.in/cplusplus-tutorial/strings/)
