@@ -18,10 +18,6 @@ Introduction to Java Programming\
 (for Novices & First-Time Programmers)
 ========================================================================
 
-##### JDK
-
-You should have already installed Java Development Kit (JDK) and written a "Hello-world" program. Otherwise, Read "[How to Install JDK](https://www3.ntu.edu.sg/home/ehchua/programming/howto/JDK_HowTo.html)".
-
 ##### Programming Text Editor
 
 Do NOT use Notepad (Windows) or TextEdit (macOS) for programming. Install a *programming* text editor, which does syntax color highlighting. For example,
