@@ -1,4 +1,4 @@
-public class Main {
+public class ArithmeticTest {
    public static void main(String[] args) {
       int number1 = 98;
       int number2 = 5;
