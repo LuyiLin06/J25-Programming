@@ -30,10 +30,15 @@ In this tasks, we used the "Serial.print" function in C++, which simply prints s
 In this task, we were assigned to create a code that could count the amount of certain ingredients and "cook" a dish. In here, we used the "if" and "else" functions, which only execute if certain conditions are met, which we can then define. There are two codes in this directory: [*sketch_cook.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/sketch_cook.ino) and [*sketch_cooking_system_4*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/sketch_cooking_system_4.ino). The latter also uses the "switch" and "case" functions, which determine which dish to cook out of a certain selection of dishes.
 ## ASCII art
 There's an additional file, [*sketch_bear.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/sketch_bear.ino), which simply print ASCII art of a bear.
-# Loops
+# Loops ➰
 This section will explain the codes found un the Loops folder.
 ## Loops that detect numbers ending in/containing certain numbers
 The [*digits_with_3_loop.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/Loops/digits_with_3_loop.ino), [*odd_or_6_loop.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/Loops/odd_or_6_loop.ino) and [*sketch_endings_3_or_6.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/Loops/sketch_endings_3_or_6.ino) codes all feature the use of the "%" operand, which calculates the remainder of the division between two integers(for example, 9%2 returns 1). By dividing the number by 10 and checking the remainder, we can determine the digit the number ends with. We can also divide that result repitedly by 10 if we want to find numbers that contain our desired integer in it.
 
 ## Loops for numbers whose integers add to certain amount
-Here we have the [**}()
+Here we have the [*sketch_digit_sum_even.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/Loops/sketch_digit_sum_even.ino) and the [*sum_of_5_or_10_loop.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/Loops/sum_of_5_or_10_loop.ino) codes, where we use the same *modus* *operandi* from before to get all the digits in a number separately through loops of "%10" operations, and then add these to see if they meet the conditions set by the exercise to return them.
+## Miscelanous
+There is the [*prime_numbers_loop.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/Loops/prime_numbers_loop.ino), which checks for numbers without any divisors other than them and 1. In other words, the numbers that will not return "0" with the operand "%x", being "x" any real, positive number.
+Also, [*sketch_loop_multiples_7.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/Loops/sketch_loop_multiples_7.ino), which checks if a number is divisible by seven (it returns a remainder of 0 when divided by 7).
+Lastly, the [*sketch_for_loop_1.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/Loops/sketch_for_loop_1.ino), [*sketch_for_loop_extra.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/Loops/sketch_for_loop_extra.ino) and [*sketch_while_loop_1.ino*](https://github.com/LuyiLin06/J25-Programming/blob/main/Arduino/Loops/sketch_while_loop_1.ino) were the first tests we made for the loops, using both the "while" and "for" loops.
+# Arrays
