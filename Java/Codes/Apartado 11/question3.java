@@ -1,6 +1,6 @@
 public class RunningNumberMod7Sum {
    public static void main(String[] args) {
-      final int LOWERBOUND = 1;
+      final int LOWERBOUND = 7;
       final int UPPERBOUND = 1000;
       int sum = 0;
       int number = LOWERBOUND;
