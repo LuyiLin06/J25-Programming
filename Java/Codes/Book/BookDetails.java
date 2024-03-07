@@ -22,7 +22,7 @@ public class BookDetails {
   public Book (String title, int numberOfPages){
     this.title = title;
     this.author = "Author X";
-    this.numberOfPages = 0;
+    this.numberOfPages = numberOfPages;
     this.inKorean = false;
     this.ibn = "XXXXXXXXXXXXX";
   }
