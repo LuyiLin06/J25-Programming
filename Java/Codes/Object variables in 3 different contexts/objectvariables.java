@@ -8,9 +8,9 @@ bool warranty
 
 //Coche Formula1
 String team​
-String pilot​
 double weight​
-int potency​
+int potency
+int ​horsepower
 bool sponsorship
 
 // Coche Electrico
